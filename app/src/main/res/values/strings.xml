@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Business</string>
+    <string name="business_description">Software Company</string>
+    <string name="business_slogan">Growth Together</string>
+    <string name="business_address">Rataskaevu 7, 10123 Tallinn, Estonia</string>
+    <string name="business_phone">+3726311511</string>
+    <string name="business_email">contact@bamboo-labs.ee</string>
+    <string name="business_website">bamboo-labs.ee</string>
+    <string name="asterisk">*</string>
+</resources>

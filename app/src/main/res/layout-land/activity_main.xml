@@ -1,0 +1,194 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ligth_gray"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="1800dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="406dp"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="135dp"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="1507dp"
+                android:layout_marginEnd="150dp"
+                android:layout_marginRight="150dp"
+                android:layout_marginBottom="258dp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="@string/business_description"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/slogan"
+                android:layout_width="318dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="47dp"
+                android:layout_marginEnd="46dp"
+                android:layout_marginRight="46dp"
+                android:layout_marginBottom="212dp"
+                android:fontFamily="@font/comfortaa_bold"
+                android:text="@string/business_slogan"
+                android:textSize="18sp" />
+
+
+            <TextView
+                android:id="@+id/first_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="94dp"
+                android:layout_marginEnd="308dp"
+                android:layout_marginRight="308dp"
+                android:layout_marginBottom="181dp"
+                android:fontFamily="@font/orbitron_bold"
+
+                android:text="@string/asterisk"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/business_address"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="125dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="185dp"
+                android:fontFamily="@font/neuton"
+                android:text="@string/business_address"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/second_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="94dp"
+                android:layout_marginEnd="308dp"
+                android:layout_marginRight="308dp"
+                android:layout_marginBottom="145dp"
+                android:fontFamily="@font/orbitron_bold"
+                android:text="@string/asterisk"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/business_phone"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="126dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="148dp"
+                android:fontFamily="@font/neuton"
+                android:text="@string/business_phone"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/third_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="95dp"
+                android:layout_marginEnd="307dp"
+                android:layout_marginRight="307dp"
+                android:layout_marginBottom="113dp"
+                android:fontFamily="@font/orbitron_bold"
+                android:text="@string/asterisk"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/business_email"
+                android:layout_width="276dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="127dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_marginBottom="118dp"
+                android:fontFamily="@font/neuton"
+                android:text="@string/business_email"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/fourth_bullet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="96dp"
+                android:layout_marginEnd="306dp"
+                android:layout_marginRight="306dp"
+                android:layout_marginBottom="82dp"
+                android:fontFamily="@font/orbitron_bold"
+                android:text="@string/asterisk"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/business_website"
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="127dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginRight="9dp"
+                android:layout_marginBottom="86dp"
+                android:fontFamily="@font/neuton"
+                android:text="@string/business_website"
+                android:textSize="18sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
